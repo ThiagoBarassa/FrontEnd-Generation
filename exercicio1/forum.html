@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 1</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+</head>
+<body>
+    <div class="menu">
+        <a class="link" href="index.html" ><h4>HOME</h4></a>
+        <a class="link" href="forum.html"><h4>FORUM</h4></a>
+
+        <button class="btn" type="submit">Pesquisar</button>
+        <input class="lbl" id="pes" type="text" placeholder="Pesquisar">
+    </div>
+    <div class="container">
+            <form>
+                <label for="nome" class="form-lbl">Nome</label>
+                <input type="text" id="nome" class="form-input" onkeyup="validarNome()">
+                <div id="txtNome"></div>
+                <label for="nome" class="form-lbl">Email</label>
+                <input type="email" id="email" class="form-input" onkeyup="validarEmail()">
+                <div id="txtEmail"></div>
+                <label class="form-lbl">Descrição</label>
+                <textarea id="desc" onkeyup="validarDesc()"></textarea>
+                <div id="txtDesc"></div>
+                <br>
+                <button class="form-btn" type="submit">Enviar</button>
+            </form>
+    </div>
+ <footer class="footer">
+                <p id="rodape">Thiago Barassa &copy;</p>
+              <a href="https://pt-br.facebook.com/"> <img class="social" src="https://www.flaticon.com/svg/vstatic/svg/1384/1384005.svg?token=exp=1610489247~hmac=8852e39d50d5abb10128e2ae87c92c53"></a>
+                <a href="https://www.linkedin.com/feed/"><img class="social" src="https://www.flaticon.com/svg/vstatic/svg/1384/1384014.svg?token=exp=1610489291~hmac=a533b1db83884ca4e030e7c50ebc9ce6"></a>
+
+        </footer>
+ 
+        <script src="assets/script.js"></script>
+</body>
+</html>
