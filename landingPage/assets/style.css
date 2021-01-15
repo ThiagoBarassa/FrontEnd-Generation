@@ -1,7 +1,29 @@
 .img-banner{
     height: 350px;
-}
+} 
 .container-fluid{
     padding-left: 0%;
     padding-right: 0%;
+}
+.social{
+    width: 45x;
+    height: 45px;
+}
+.footer-area{
+    background-color: lightgray;
+    padding-top: 60px;
+    padding-bottom: 15px;
+}
+.img-corpo{
+    height: 100%;
+    width: 100%;
+}
+.card{
+    margin-inline: 35px;
+}
+.card-img-top{
+    height: 160px ;
+}
+html{
+    scroll-behavior: smooth;
 }
